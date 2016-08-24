@@ -26,7 +26,7 @@ import Foundation
  
  然后从左往右扫描，当jump[i]<0的时候，意味着不可能走到i步，所以return false; 如果走到最右端，那么return true.
  
- Inspired by at http://fisherlei.blogspot.com/2012/12/leetcode-jump-game.html
+ Inspired by http://fisherlei.blogspot.com/2012/12/leetcode-jump-game.html
  */
 
 class Solution {
