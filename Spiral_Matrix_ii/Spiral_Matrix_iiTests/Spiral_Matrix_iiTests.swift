@@ -26,9 +26,11 @@ class Spiral_Matrix_iiTests: XCTestCase {
         let expected : [[Int]] = [
         [1,2,3],[8,9,4],[7,6,5]]
         
-        let result = Solution().generateMatrix(input)
-        
+        let result = Solution_I().generateMatrix(input)
         XCTAssertEqual(expected, result)
+        
+        let result1 = Solution_II().generateMatrix(input)
+        XCTAssertEqual(expected, result1)
         
     }
     
@@ -36,9 +38,11 @@ class Spiral_Matrix_iiTests: XCTestCase {
         let input = 0
         let expected : [[Int]] = []
         
-        let result = Solution().generateMatrix(input)
-        
+        let result = Solution_I().generateMatrix(input)
         XCTAssertEqual(expected, result)
+        
+        let result2 = Solution_II().generateMatrix(input)
+        XCTAssertEqual(expected, result2)
         
     }
     
@@ -51,9 +55,11 @@ class Spiral_Matrix_iiTests: XCTestCase {
             [10, 9, 8, 7]
         ]
         
-        let result = Solution().generateMatrix(input)
-        
+        let result = Solution_I().generateMatrix(input)
         XCTAssertEqual(expected, result)
+        
+        let result3 = Solution_II().generateMatrix(input)
+        XCTAssertEqual(expected, result3)
         
     }
     
