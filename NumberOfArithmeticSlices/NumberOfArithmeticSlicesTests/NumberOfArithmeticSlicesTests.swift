@@ -71,9 +71,9 @@ class NumberOfArithmeticSlicesTests: XCTestCase {
         var test3 = Solution.numberOfArithmeticSlices(case3)
         
         XCTAssert(test0 == 3, "answer is right")
-        XCTAssert(test1 == 3, "answer is right")
+        XCTAssert(test1 == 6, "answer is right")
         XCTAssert(test2 == 3, "answer is right")
-        XCTAssert(test3 == 3, "answer is right")
+        XCTAssert(test3 == 36, "answer is right")
         
         
     }
